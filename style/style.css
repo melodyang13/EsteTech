@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../style/fonts/Montserrat-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
 
 }
 
@@ -321,7 +321,7 @@ header .logo {
 
 .about-bg {
     box-sizing: border-box;
-    background-image: url("../style/home-images/background.jpg");
+    background-image: url("../assets/home-images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -373,7 +373,7 @@ header .logo {
 /* history */
 
 .history {
-    background-image: url("../style/home-images/historybg.jpg");
+    background-image: url("../assets/home-images/historybg.jpg");
     background-size: cover;
     padding-top: 10px;
     padding-bottom: 50px;
@@ -419,23 +419,23 @@ header .logo {
 
 @keyframes rotate-images {
     0% {
-        background-image: url("../style/home-images/indigenous.jpg");
+        background-image: url("../assets/home-images/indigenous.jpg");
     }
 
     20% {
-        background-image: url("../style/home-images/hispanictradition.jpg");
+        background-image: url("../assets/home-images/hispanictradition.jpg");
     }
 
     40% {
-        background-image: url("../style/home-images/colonialamreican.jpg");
+        background-image: url("../assets/home-images/colonialamreican.jpg");
     }
 
     60% {
-        background-image: url("../style/home-images/preiodofrepublics.jpg");
+        background-image: url("../assets/home-images/preiodofrepublics.jpg");
     }
 
     80% {
-        background-image: url("../style/home-images/modern.jpg");
+        background-image: url("../assets/home-images/modern.jpg");
     }
 }
 
@@ -634,7 +634,7 @@ header .logo {
 .envision-intro{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.774)),url(../style/envision-images/envision-hero-desk-bg.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.774)),url(../assets/envision-images/envision-hero-desk-bg.svg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1129,7 +1129,7 @@ th:hover{
   display: flex;
   flex-wrap: wrap;
   color: #fff;
-  background-image: url('../style/design-images/design-trends-hero-background.png'); 
+  background-image: url('../assets/design-images/design-trends-hero-background.png'); 
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -1415,7 +1415,7 @@ th:hover{
 .about-us-design-sec {
     display: flex;
     overflow: hidden;
-    background-image: url(../style/about-us-images/about-us-last.png);
+    background-image: url(../assets/about-us-images/about-us-last.png);
     background-size: cover;
     background-position: center;
 }
@@ -1443,19 +1443,19 @@ th:hover{
 @keyframes about-us-transition{
 
     0%{
-        background-image: url(../style/about-us-images/about-us-team-banner.jpg);
+        background-image: url(../assets/about-us-images/about-us-team-banner.jpg);
     }
     25%{
-        background-image: url(../style//about-us-images/about-us-design-two.jpg);
+        background-image: url(../assets//about-us-images/about-us-design-two.jpg);
     }
     45%{
-        background-image: url(../style//about-us-images/about-us-design-one.jpg);
+        background-image: url(../assets//about-us-images/about-us-design-one.jpg);
     }
     75%{
-        background-image: url(../style//about-us-images/about-us-design-fourth.jpg);
+        background-image: url(../assets//about-us-images/about-us-design-fourth.jpg);
     }
     100%{
-        background-image: url(../style//about-us-images/about-us-design-three.png);
+        background-image: url(../assets//about-us-images/about-us-design-three.png);
     }
 
 }
@@ -1577,7 +1577,7 @@ th:hover{
 @media all and (max-width: 960px){
     @font-face {
         font-family: 'Poppins';
-        src: url("/style/fonts/Poppins-Light.ttf");
+        src: url("/assets/fonts/Poppins-Light.ttf");
     }
     body{
         font-family: 'Poppins';
@@ -1763,7 +1763,7 @@ th:hover{
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background-image: url("../style/home-images/about-mobile-bg.jpg");
+        background-image: url("../assets/home-images/about-mobile-bg.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -1818,7 +1818,7 @@ th:hover{
 
 
     .history{
-        background-image: url("../style/home-images/mobile-hist-bg.jpg");
+        background-image: url("../assets/home-images/mobile-hist-bg.jpg");
         background-size: cover;
         box-sizing: border-box;
     }
@@ -1901,7 +1901,7 @@ th:hover{
     .envision-intro{
         min-height: 100vh;
         width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.774)), url(../style/envision-images/Envision-Mobile-Hero_Background.svg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.774)), url(../assets/envision-images/Envision-Mobile-Hero_Background.svg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -1922,7 +1922,7 @@ th:hover{
     .envision-intro_content {
     align-self: center;
     position: absolute;
-    content: url(../style/envision-images/Envision-Mobile-Logo.svg);
+    content: url(../assets/envision-images/Envision-Mobile-Logo.svg);
     width:100%; 
 
     }
@@ -1956,8 +1956,8 @@ th:hover{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image:  url(../style/envision-images/Envision-Overview-MB-BG.gif), 
-    url(../style/envision-images/Envision-Overview-MBBG.gif);
+    background-image:  url(../assets/envision-images/Envision-Overview-MB-BG.gif), 
+    url(../assets/envision-images/Envision-Overview-MBBG.gif);
 
     background-color:#EFE5DC;
     }
@@ -2049,7 +2049,7 @@ th:hover{
 
     /*TIMELINE*/
     #envision-explore_features{
-        background-image: url(../style/envision-images/envision-features-backgroundMBk.gif) ;
+        background-image: url(../assets/envision-images/envision-features-backgroundMBk.gif) ;
         width:100%; 
         
     }
@@ -2294,16 +2294,16 @@ th:hover{
         @keyframes about-us-transition{
 
             0%{
-                background-image: url(../style/about-us-images/about-us-banner-mobile.png);
+                background-image: url(../assets/about-us-images/about-us-banner-mobile.png);
             }
             33.33%{
-                background-image: url(../style/about-us-images/about-us-banner-mobile2.png);
+                background-image: url(../assets/about-us-images/about-us-banner-mobile2.png);
             }
             66.66%{
-                background-image: url(../style/about-us-images/about-us-banner-mobile3.png);
+                background-image: url(../assets/about-us-images/about-us-banner-mobile3.png);
             }
             100%{
-                background-image: url(../style/about-us-images/about-us-banner-mobile.png);
+                background-image: url(../assets/about-us-images/about-us-banner-mobile.png);
             }
         
         }
@@ -2331,7 +2331,7 @@ th:hover{
         .about-us-vision {
             min-height: 100vh;
             width: 100%;
-            background-image: url(../style/about-us-images/about-us-banner-mobile.png);
+            background-image: url(../assets/about-us-images/about-us-banner-mobile.png);
             background-position: center;
             background-size: cover;
             position: relative;
@@ -2457,7 +2457,7 @@ th:hover{
             width: 95%;
             margin: 0; 
             padding: 20px; 
-            background-image: url(../style/about-us-images/about-us-last-mobile.jpg);
+            background-image: url(../assets/about-us-images/about-us-last-mobile.jpg);
             background-size: cover;
             background-position: center;
         }
@@ -2634,7 +2634,7 @@ th:hover{
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        background-image: url("../style/home-images/about-mobile-bg.jpg");
+        background-image: url("../assets/home-images/about-mobile-bg.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -2696,7 +2696,7 @@ th:hover{
     }
 
     .history {
-        background-image: url("../style/home-images/mobile-hist-bg.jpg");
+        background-image: url("../assets/home-images/mobile-hist-bg.jpg");
         background-size: cover;
         box-sizing: border-box;
         padding: 40px;
